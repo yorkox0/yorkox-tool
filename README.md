@@ -1,2 +1,12 @@
 # yorkox-tool
-Este archivo ha sido creado bajo la responsabilidad que le de cada uno. Solo es para trabajar en entrornos controlados
+   # REQUERIMENTS
+
+python3, python3-pip, bash.
+
+   # INSTALLATION
+
+Commands:
+  git clone https://github.com/yorkox0/yorkox-tool
+  mkdir ytool # Only to save the files
+  mv yorkox.py ytool/
+  python3 ytool
