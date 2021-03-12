@@ -127,6 +127,7 @@ def phishing():
         print("")
         print("Executting...")
         time.sleep(1)
+        os.system("cd zphisher")
         os.system("bash zphisher/zphisher.sh")
 
     if x == "3":
