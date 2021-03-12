@@ -1,6 +1,4 @@
-# yorkox-tool
-
-   # REQUERIMENTS
+  # REQUERIMENTS
 
 python3, python3-pip, bash.
 
