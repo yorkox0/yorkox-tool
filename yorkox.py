@@ -138,4 +138,4 @@ print(chr(27)+"[1;31m"+"")
 if input("Continue? s/n --->> ") == "s":
     menu()
 else:
-    exit("Bye...")
+    exit("Bye")
