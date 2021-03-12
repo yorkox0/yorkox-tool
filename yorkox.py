@@ -117,7 +117,7 @@ def phishing():
         print(chr(27)+"[1;32m"+"")
         print("Downloading...")
         time.sleep(1)
-        os.system("wget https://raw.githubusercontent.com/htr-tech/zphisher/master/zphisher.sh")
+        os.system("git clone https://github.com/htr-tech/zphisher")
         print(chr(27)+"[1;31m"+"Download Succesfull!!")
         time.sleep(2)
         while True:
@@ -127,7 +127,7 @@ def phishing():
         print("")
         print("Executting...")
         time.sleep(1)
-        os.system("bash zphisher.sh")
+        os.system("bash zphisher/zphisher.sh")
 
     if x == "3":
         menu()
