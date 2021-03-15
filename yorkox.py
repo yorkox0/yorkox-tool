@@ -12,12 +12,14 @@ def menu():
     time.sleep(1)
     print("3 -->> Phishing")
     time.sleep(1)
-    print("4 -->> Exit")
+    print("4 -->> Wpscan")
+    time.sleep(1)
+    print("5 -->> Exit")
     print(chr(27)+"[1;32m"+"")
     time.sleep(1)
     option = input("--->> ")
     print(chr(27)+"[1;34m"+"")
-    
+
     if option == "1":
         msf()
 
@@ -28,6 +30,9 @@ def menu():
         phishing()
 
     if option == "4":
+        wpscan()
+
+    if option == "5":
         print("Bye...")
         time.sleep(1)
         os.system("clear")
@@ -52,7 +57,7 @@ def msf():
         time.sleep(3)
         while True:
             msf()
-    
+
     if x == "2":
         print(chr(27)+"[1;32m"+"")
         print("Creating payload...")
@@ -70,7 +75,7 @@ def msf():
         time.sleep(3)
         while True:
             msf()
-    
+
     if x == "4":
         menu()
 
@@ -88,17 +93,17 @@ def ddos():
         print(chr(27)+"[1;32m"+"")
         print("Downloading...")
         time.sleep(1)
-        os.system("curl https://raw.githubusercontent.com/yorkox0/exaple01/main/ddos.py -o ddos.py")
+        os.system("wget https://raw.githubusercontent.com/yorkox0/exaple01/main/ddos.py")
         print(chr(27)+"[1;31m"+"Download Succesfull!!")
         time.sleep(2)
         while True:
             ddos()
-    
+
     if x == "2":
         print("")
         print("Executting...")
         time.sleep(1)
-        os.system("python ddos.py")
+        os.system("python3 ddos.py")
 
     if x == "3":
         menu()
@@ -122,7 +127,7 @@ def phishing():
         time.sleep(2)
         while True:
             phishing()
-    
+
     if x == "2":
         print("")
         print("Executting...")
@@ -132,6 +137,16 @@ def phishing():
         os.system("bash zphisher/zphisher.sh")
 
     if x == "3":
+        menu()
+
+def wpscan():
+    os.system("clear")
+    web = input("Web with https:// -->> ")
+    os.system("wpscan --url "+web+ ">> analisis.txt")
+    print("")
+    print("Saved on analisis.txt")
+    time.sleep(3)
+    while True:
         menu()
 
 print(chr(27)+"[1;36m"+"Created by Yorkox")
