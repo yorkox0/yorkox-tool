@@ -12,7 +12,7 @@ def menu():
     time.sleep(1)
     print("3 -->> Phishing")
     time.sleep(1)
-    print("4 -->> Wpscan (Only on Linux)
+    print("4 -->> Wpscan (Only on Linux)")
     time.sleep(1)
     print("5 -->> Exit")
     print(chr(27)+"[1;32m"+"")
