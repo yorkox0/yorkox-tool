@@ -15,10 +15,15 @@ banner = """
 """
 
 def decoracion():
+    time.sleep(1)
     print(chr(27)+"[1;35m"+"              |                    1 -->> MsfVenom")
+    time.sleep(1)
     print("              |                    2 -->> DDoS")
+    time.sleep(1)
     print("              |                    3 -->> Phishing")
+    time.sleep(1)
     print("              |                    4 -->> Exit")
+    time.sleep(1)
     option = input("              ↳ ")
     
     if option == "1":
@@ -157,7 +162,6 @@ def phishing():
 
     if x == "3":
         start_menu()
-
 
 print(chr(27)+"[1;36m"+"Created by Yorkox")
 print(chr(27)+"[1;31m"+"")
