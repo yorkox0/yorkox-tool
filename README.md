@@ -1,13 +1,13 @@
-  # REQUERIMENTS
-
-python3, python3-pip, bash.
-
    # INSTALLATION
 
 git clone https://github.com/yorkox0/yorkox-tool
 
-mkdir ytool # Only to save the files
+cd yorkox-tool
 
-mv yorkox.py ytool/
+python3 requeriments.py
 
-python3 ytool
+select OS (Debian/Arch)
+
+python3 yorkox.py
+
+:)
