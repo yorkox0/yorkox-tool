@@ -1,6 +1,5 @@
 from sys import stdout
 
-
 def red():
     RED = "\033[1;31m"
     stdout.write(RED)
