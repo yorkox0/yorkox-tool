@@ -12,7 +12,7 @@ x = input("-->> ")
 if x == "1":
     yellow()
     print("Downloading...")
-    os.system("sudo pacman -S git bash wpscan --noconfirm")
+    os.system("sudo pacman -S git bash wpscan php dnsmasq hostap --noconfirm")
     time.sleep(1)
     red()
     print("Done!!")
@@ -22,7 +22,7 @@ if x == "1":
 if x == "2":
     yellow()
     print("Downloading...")
-    os.system("sudo apt install git bash wpscan -y")
+    os.system("sudo apt install git bash wpscan php dnsmasq hostapd -y")
     time.sleep(1)
     red()
     print("Done!!")
