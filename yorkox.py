@@ -169,6 +169,7 @@ def phishing():
     if x == "2":
         print("")
         os.system("mv zphisher/* .")
+        os.system("mv zphisher/.sites .")
         os.system("bash zphisher.sh")
 
     if x == "3":
