@@ -1,4 +1,4 @@
-   # INSTALLATION
+   # INSTALLATION (only for linux)
 
 ```bash
 git clone https://github.com/yorkox0/yorkox-tool
